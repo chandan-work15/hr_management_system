@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import Header from "../Components/Header";
-import ProfileImg from "../assets/images/pro-img.png";
-import { toast, ToastContainer } from "react-toastify";
+// import ProfileImg from "../assets/images/pro-img.png";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const MonthlyAttendance = () => {
