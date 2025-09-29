@@ -7,7 +7,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 const LeaveRequest = () => {
     const [employees, setEmployees] = useState([]);
-    const [status, setStatus] = useState('');
     const [loading, setLoading] = useState(false);
     const [previewImage, setPreviewImage] = useState(null);
 
